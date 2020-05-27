@@ -1,0 +1,85 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: firebrick;
+	font-family: 'Oxygen', sans-serif;
+}
+/*Header Section*/
+#nav-header{
+	background-color: darkslategray;
+	border-radius: 0;
+	text-decoration: none; 
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color: dimgray;
+	text-align: center;
+}
+#nav-list a:hover{
+	background-color: darkslategray;
+}
+.navbar-header>#brand-name{
+	font-size: 30px;
+	font-family: serif;
+	font-style: italic;
+	color: darkslategray;
+	text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 2px solid #000;
+	background-color: darkslategray;
+}
+.container .navbar-collapse ul{
+	background-color: #fff;
+	margin-top: -10px;
+	margin-bottom: -5px; 
+}
+.container .navbar-collapse li{
+	border-top: 1px solid #000;
+}
+.container .navbar-collapse li a{
+	color: #000;
+	font-size: 1.2em;
+}
+/*main content section*/
+#sub-heading{
+	font-size: 3em;
+	font-family: serif;
+	font-style: italic;
+	color: gainsboro;
+}
+#content-box{
+	background-color: darkslategray;
+	color: #000;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 25px;
+	width: 100%;
+}
+.navbar-collapse{
+	border-top: 0;
+}
+.navbar-collapse.in{
+	overflow-y: : hidden;
+}
+h2{
+	margin-top: -10px;
+}
+#content-detail{
+	font-size: 20px;
+	font-style: italic;
+	color: gainsboro;
+}
+#content-label{
+	font-size: 20px;
+	font-style: italic;
+	color: gainsboro;
+}
+.visible-xs{
+	text-align: center;
+	color: gainsboro;
+}
